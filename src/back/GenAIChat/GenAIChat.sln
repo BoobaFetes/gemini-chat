@@ -22,6 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenAIChat.Infrastructure.Da
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenAIChat.Infrastructure.Database.Sqlite.Migrations", "GenAIChat.Infrastructure.Database.Sqlite.Migrations\GenAIChat.Infrastructure.Database.Sqlite.Migrations.csproj", "{6FAAD7B6-B570-462D-9CE7-2BEBA22EE330}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenAIChat.Infrastructure.Database.TableStorage", "GenAIChat.Infrastructure.Database.TableStorage\GenAIChat.Infrastructure.Database.TableStorage.csproj", "{0275382D-189D-4822-B514-E2CFEFA7A741}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -56,6 +58,10 @@ Global
 		{6FAAD7B6-B570-462D-9CE7-2BEBA22EE330}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FAAD7B6-B570-462D-9CE7-2BEBA22EE330}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FAAD7B6-B570-462D-9CE7-2BEBA22EE330}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0275382D-189D-4822-B514-E2CFEFA7A741}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0275382D-189D-4822-B514-E2CFEFA7A741}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0275382D-189D-4822-B514-E2CFEFA7A741}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0275382D-189D-4822-B514-E2CFEFA7A741}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
